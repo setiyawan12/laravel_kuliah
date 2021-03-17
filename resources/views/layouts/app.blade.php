@@ -28,8 +28,8 @@ body
 .card
 {
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 500px;
+    height: 700px;
     background: white;
     transform-style: preserve-3d;
     transform: perspective(1000px);
@@ -112,8 +112,8 @@ body
 .card .details .content .social-icons a
 {
     display: inline-block;
-    width:  35px;
-    height: 35px;
+    width:  40px;
+    height: 40px;
     background: #333;
     color: white;
     display: flex;
@@ -123,6 +123,8 @@ body
     margin: 5px;
     font-size: 18px;
     transition: 0.2s;
+    box-shadow: 10px 20px 40px rgba(0,0,0,0.25);
+
 }
 .card .details .content .social-icons a:hover
 {
