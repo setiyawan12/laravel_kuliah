@@ -28,8 +28,8 @@ body
 .card
 {
     position: relative;
-    width: 500px;
-    height: 700px;
+    width: 400px;
+    height: 500px;
     background: white;
     transform-style: preserve-3d;
     transform: perspective(1000px);
